@@ -1,0 +1,28 @@
+apiVersion: v1
+entries:
+  behave-tracking-service:
+  - apiVersion: v2
+    appVersion: 5.0.12
+    created: "2022-01-17T12:04:08.595973828+01:00"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.3.0
+    description: STRG.BeHave tracking-service Helm chart for Kubernetes
+    digest: 7bb25e8d39e44236850a34fe70b247347f98349ab1af174751d036afc1b3b736
+    home: https://bitbucket.strg.at/projects/BHV/repos/tracking-service/browse?at=refs%2Fheads%2Fmaster/helm
+    keywords:
+    - behave
+    - tracking-service
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: nils.mueller@strg.at
+      name: Nils Müller
+    name: behave-tracking-service
+    sources:
+    - https://bitbucket.strg.at/projects/BHV/repos/tracking-service
+    type: application
+    urls:
+    - behave-tracking-service-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-01-17T12:04:08.593348174+01:00"
